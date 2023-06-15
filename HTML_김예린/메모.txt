@@ -1,0 +1,53 @@
+1. css 안에서 주석 달기
+ <style> </style>태그 안에서 /**/ 입력
+
+2. HTML 안에서 주석 
+  1) 단축키 ctrl + /
+  2) 직접 입력 <!-- 주석 내용 -->
+     또는 <!-- 입력하면 자동완성
+
+3. width : 너비 (폭 설정)
+   height : 높이
+   background-color : 배경 색상
+
+   padding : 글자와 테두리 사이의 여백 (간격)
+   margin : 테두리와 테두리 사이의 간격
+	
+   border : 테두리
+   border-width : 테두리 두께
+   border-color : 테두리 컬러
+   border-style : 테두리 스타일 
+                     1) solid 는 실선 
+                     2) dotted 짧은 점선
+   
+
+ [한 줄로 압축 가능]
+  ex) 원본 
+       border-width: 5px;
+       border-style: solid;
+       border-color: red;
+
+  > 한 줄로 압축하면 border 한 번만 사용 가능!
+
+       border: 5px solid red;        
+       = 테두리 두께는 5px, 테두리 스타일은 단선, 테두리 컬러는 레드
+
+
+4.  border-collapse : 테이블 또는 셀의 테두리선 표시 방법을 지정하는 속성
+   
+   속성값 1) border-collapse : collapse;     = 서로 이웃하는 테이블이나 셀의 테두리 선을 겹쳐서 표현
+            2) border-collapse : separate;     = 기본 값으로 서로 이웃하는 테이블이나 셀의 테두리 선을 분리시켜 표현 
+ 
+
+5. text-align: center;       = 가운데 정렬
+   text-align: left;           = 왼쪽 정렬
+   text-align: right;         =  오른쪽 정렬
+
+   font-size=5px;           = 글자 크기를 5px로 조절
+
+
+6. 이미지 <img> 태그
+<img src="이미지 파일 경로" alt="대체용 텍스트">
+<img src="이미지 파일 경로">
+
+
