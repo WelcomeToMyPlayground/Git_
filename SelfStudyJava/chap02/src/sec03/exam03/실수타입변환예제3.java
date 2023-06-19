@@ -1,9 +1,9 @@
 package sec03.exam03;
 
-public class ½Ç¼öÅ¸ÀÔº¯È¯¿¹Á¦3 {
+public class ì‹¤ìˆ˜íƒ€ìž…ë³€í™˜ì˜ˆì œ3 {
 
 	public static void main(String[] args) {
-		char a = '°¡';
+		char a = 'Â°Â¡';
 		char b = 1;
 
 		int c = a + b;
