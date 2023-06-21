@@ -2,19 +2,19 @@ package test;
 
 import java.util.Scanner;
 
-public class È®ÀÎ¹®Á¦2 {
+public class í™•ì¸ë¬¸ì œ2 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Ã¹ ¹øÂ° ¼ö :");
+		System.out.println("ì²« ë²ˆì§¸ ìˆ˜ :");
 		String strNum1 = s.next();
-		System.out.println("µÎ ¹øÂ° ¼ö :");
+		System.out.println("ë‘ ë²ˆì§¸ ìˆ˜ :");
 		String strNum2 = s.next();
 
-		int num1 = Integer.parseInt(strNum1);
+		int num1 = Integer.parseInt(strNum1); // int result = Integer.parseInt(strNum1) + Integer.parseInt(strNum2);
 		int num2 = Integer.parseInt(strNum2);
 		int result = num1 + num2;
-		System.out.println("µ¡¼À °á°ú:" + result);
+		System.out.println("ë§ì…ˆ ê²°ê³¼:" + result);
 	}
 
 }
