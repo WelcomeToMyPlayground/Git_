@@ -2,28 +2,28 @@ package test;
 
 import java.util.Scanner;
 
-public class È®ÀÎ¹®Á¦3 {
+public class í™•ì¸ë¬¸ì œ3 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("Ã¹ ¹øÂ° ¼ö :");
+		System.out.println("ì²« ë²ˆì§¸ ìˆ˜ :");
 		int a = s.nextInt();
-		System.out.println("µÎ ¹øÂ° ¼ö :");
+		System.out.println("ë‘ ë²ˆì§¸ ìˆ˜ :");
 		int b = s.nextInt();
 
 		// if (a > b) {
-		// System.out.println("»¬¼À °á°ú : " + (a - b));
+		// System.out.println("ëº„ì…ˆ ê²°ê³¼ : " + (a - b));
 		// } else {
-		// System.out.println("µ¡¼À °á°ú : " + (a + b));
+		// System.out.println("ë§ì…ˆ ê²°ê³¼ : " + (a + b));
 		// }
 
 		int result;
 		if (a > b) {
 			result = a - b;
-			System.out.println("–E¼À °á°ú : " + result);
+			System.out.println("ëº„ì…ˆ ê²°ê³¼ : " + result);
 		} else {
 			result = a + b;
-			System.out.println("µ¡¼À °á°ú : " + result);
+			System.out.println("ë§ì…ˆ ê²°ê³¼ : " + result);
 		}
 
 	}
