@@ -6,16 +6,20 @@ public class teamStudy3 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println("ÇĞ»ı¼ö?");
-		int count = s.nextInt();
-		System.out.println("ÇÑ ÁÙ¿¡ ¸î¸í¾¿ ¾É³ª¿ä?");
+		System.out.println("í•™ìƒìˆ˜?");
+		int student = s.nextInt();
+		System.out.println("í•œ ì¤„ì— ëª‡ëª…ì”© ì•‰ë‚˜ìš”?");
 		int line = s.nextInt();
 		
+		int a = stundent / line;
+		int b = student % line;
 		
-		
-		// ¹æ¹ı 3 »ïÇ× ¿¬»êÀÚ ÀÌ¿ë = ÁÂ¼® ¼ö, ³²Àº ÀÚ¸®
+		// ë°©ë²• 3 ì‚¼í•­ ì—°ì‚°ì ì´ìš© = ì¢Œì„ ìˆ˜, ë‚¨ì€ ìë¦¬
 
-		
+		if (b!=0) {
+			a++; b= line - b;
+		} 
+		System.out.printf("ì´ %d ì¤„ì— ì•‰ì•˜ê³ , ë‚¨ì€ ì¢Œì„ì€ %d ì…ë‹ˆë‹¤.", a, b );
 
 
 	}
