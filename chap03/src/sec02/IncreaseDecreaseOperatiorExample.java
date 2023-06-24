@@ -8,12 +8,12 @@ public class IncreaseDecreaseOperatiorExample {
 		int z;
 
 		System.out.println("-----------------");
-		x++; // x = 10 Ãâ·Â½Ã + 
+		x++; // x = 10 //ì¶œë ¥ì‹œ 11  
 		++x; // x = 11
 		System.out.println("x=" + x); // x= 12
 
 		System.out.println("-----------------");
-		y--; // y = 10 Ãâ·Â½Ã -
+		y--; // y = 10 // ì¶œë ¥ì‹œ 9
 		--y; // y = 9
 		System.out.println("y=" + y); // y = 8
 
