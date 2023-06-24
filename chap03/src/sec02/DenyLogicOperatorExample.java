@@ -3,7 +3,7 @@ package sec02;
 public class DenyLogicOperatorExample {
 
 	public static void main(String[] args) {
-		// boolean Å¸ÀÔ false ´Â ±ÛÀÚ ¾Õ¿¡! :
+		// boolean ê¸, ë¶€ì •ë¬¸ 
 		boolean play = true;
 		System.out.println(play);
 
