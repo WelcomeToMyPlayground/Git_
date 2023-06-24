@@ -8,7 +8,7 @@ public class CompareOperatorExample2 {
 		System.out.println(v2 == v3);
 		System.out.println(v2);
 
-		double v4 = 0.1; // ¿Ö false ³ª¿À´ÂÁö È®ÀÎ..
+		double v4 = 0.1; // ë¶€ë™ ì†Œìˆ˜ì ...
 		float v5 = 0.1f;
 		System.out.println(v4 == v5);
 
