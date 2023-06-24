@@ -3,22 +3,22 @@ package sec02;
 import java.util.Scanner;
 
 public class ConditionOperationExample {
-
+// ì‚¼í•­ì—°ì‚°ì ì—°ìŠµ
 	public static void main(String[] args) {
 
 		// int score=85;
-		// char grade = (score>90)?'A': ((score>80)?'B':'C'); // score°¡ 90ÀÌ»óÀÌ¸é a 80 ÀÌ»óÀÌ¸é
-		// b ±×¿Ü¿¡´Â c
-		// System.out.println(score + "Á¡Àº " + grade + "µî±ŞÀÔ´Ï´Ù.");
+		// char grade = (score>90)?'A': ((score>80)?'B':'C'); // scoreê°€ 90ì´ìƒì´ë©´ a 80 ì´ìƒì´ë©´
+		// b ê·¸ì™¸ì—ëŠ” c
+		// System.out.println(score + "ì ì€ " + grade + "ë“±ê¸‰ì…ë‹ˆë‹¤.");
 
-		// »ç¿ëÀÚ°¡ Á¡¼ö¸¦ ÀÔ·ÂÇÕ´Ï´Ù.
-		// Á¡¼ö°¡ 90Á¡ ÀÌ»ó "¼ö" 80Á¡ ÀÌ»ó "¿ì" ³ª¸ÓÁö "¹Ì"
+		// ì‚¬ìš©ìê°€ ì ìˆ˜ë¥¼ ì…ë ¥í•©ë‹ˆë‹¤.
+		// ì ìˆ˜ê°€ 90ì  ì´ìƒ "ìˆ˜" 80ì  ì´ìƒ "ìš°" ë‚˜ë¨¸ì§€ "ë¯¸"
 
 		Scanner s = new Scanner(System.in);
-		System.out.println("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		int score = s.nextInt();
-		String grade = score >= 90 ? "¼ö" : score >= 80 ? "¿ì" : "¹Ì";
-		System.out.println(score + "Á¡Àº " + grade + " µî±ŞÀÔ´Ï´Ù.");
+		String grade = score >= 90 ? "ìˆ˜" : score >= 80 ? "ìš°" : "ë¯¸";
+		System.out.println(score + "ì ì€ " + grade + " ë“±ê¸‰ì…ë‹ˆë‹¤.");
 
 	}
 
