@@ -2,14 +2,14 @@ package sec02;
 import java.util.Scanner;
 
 public class AssignmentOperastorExample {
-
+// ì—°ì‚°ì ì—°ìŠµ 
 	public static void main(String[] args) {
 
 		Scanner s = new Scanner(System.in);
 		int num1 = 100;
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		int a = s.nextInt();
-		System.out.println("¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		String b = s.next();
 		
 		if(b.equals("+")) {num1 += a;}
@@ -17,8 +17,8 @@ public class AssignmentOperastorExample {
 		if(b.equals("*")) {num1 *= a;}
 		if(b.equals("/")) {num1 /= a;}
 		
-		//if (a¸¦ ¼ıÀÚ¶ó°í ÀÎ½ÄÇÑ´Ù¸é.. Ãâ·Â)
+		//if (aë¥¼ ìˆ«ìë¼ê³  ì¸ì‹í•œë‹¤ë©´.. ì¶œë ¥)
 		
-		System.out.println("°á°ú °ªÀº"+ num1);
+		System.out.println("ê²°ê³¼ ê°’ì€"+ num1);
 	}
 }
