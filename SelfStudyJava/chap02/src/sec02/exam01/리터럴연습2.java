@@ -1,11 +1,11 @@
 package sec02.exam01;
 
-public class ¸®ÅÍ·²¿¬½À2 {
+public class ë¦¬í„°ëŸ´ì—°ìŠµ2 {
 
 	public static void main(String[] args) {
 		byte var1 = 115;
 		byte var2 = 0;
-		// byte ¹üÀ§ ¹þ¾î³² byte var3 = 128;
+		// byte ë²”ìœ„ ë²—ì–´ë‚¨ (-128~127) byte var3 = 128;
 		byte var3 = 127;
 
 		System.out.println(var1);
@@ -15,7 +15,7 @@ public class ¸®ÅÍ·²¿¬½À2 {
 		//bit < byte < short < int < long
 		
 		long var4 = 12345678L;
-		//long var5 = 1000000000000;  long type Ç¥ÇöÇÒ ¶§ L ÀÔ·Â
+		//long var5 = 1000000000000;  long type í‘œí˜„í•  ë•Œ L ìž…ë ¥
 		long var5 = 1000000000000L;
 		long var6 = 1000000000000L;
 		
