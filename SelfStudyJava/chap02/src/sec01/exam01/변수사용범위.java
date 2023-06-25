@@ -1,9 +1,9 @@
 package sec01.exam01;
 
-public class º¯¼ö»ç¿ë¹üÀ§ {
+public class ë³€ìˆ˜ì‚¬ìš©ë²”ìœ„ {
 
 	public static void main(String[] args) {
-		String a = ""; // °ø¹é
+		String a = ""; // ê³µë°±
 		String b; // null
 		int v1 = 15;
 		if(v1>10) {
