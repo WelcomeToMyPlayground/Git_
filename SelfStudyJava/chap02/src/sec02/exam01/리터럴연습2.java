@@ -12,7 +12,7 @@ public class 리터럴연습2 {
 		System.out.println(var2);
 		System.out.println(var3);
 		
-		//bit < byte < short < int < long
+		//bit < byte < short < int < long , char < int 
 		
 		long var4 = 12345678L;
 		//long var5 = 1000000000000;  long type 표현할 때 L 입력
