@@ -1,6 +1,6 @@
 package sec01.exam01;
 
-public class º¯¼ö°ª±³È¯2 {
+public class ë³€ìˆ˜ê°’êµí™˜2 {
 
 	public static void main(String[] args) {
 		int a = 10, b = 20, c = 30;
