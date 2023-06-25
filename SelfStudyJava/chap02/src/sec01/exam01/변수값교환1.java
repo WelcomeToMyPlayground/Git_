@@ -1,6 +1,6 @@
 package sec01.exam01;
 
-public class º¯¼ö°ª±³È¯1 {
+public class ë³€ìˆ˜ê°’êµí™˜1 {
 
 	public static void main(String[] args) {
 		int x = 3;
@@ -8,10 +8,10 @@ public class º¯¼ö°ª±³È¯1 {
 
 		System.out.println("x:" + x + ", y:" + y);
 
-		int temp = x; // temp ¶ó´Â º¯¼ö¸¦ »ı¼ºÇØ x°ª ´ëÀÔ, = ´Â °°´Ù°¡ ¾Æ´Ñ ´ëÀÔ
+		int temp = x; // temp ë¼ëŠ” ë³€ìˆ˜ë¥¼ ìƒì„±í•´ xê°’ ëŒ€ì…, = ëŠ” ê°™ë‹¤ê°€ ì•„ë‹Œ ëŒ€ì…
 		
-		x = y; // º¯¼ö x¿¡ º¯¼ö y°ªÀ» ´ëÀÔ 
-		y = temp; // º¯¼ö y¿¡ º¯¼ö temp°ªÀ» ´ëÀÔ½ÃÅ´ 
+		x = y; // xëŠ” tempì— ë“¤ì–´ê°€ ìˆê³  í˜„ì¬ ë³€ìˆ˜xëŠ” ë¹ˆ ìƒíƒœ <- ë³€ìˆ˜ yê°’ì„ ëŒ€ì… 
+		y = temp; // ë³€ìˆ˜ yì— ë³€ìˆ˜ tempê°’ì„ ëŒ€ì…ì‹œí‚´ = xì™€ yê°’ì„ ì„œë¡œ ë°”ê¿ˆ
 		
 		System.out.println("x:" + x + ", y:" + y);
 	}
