@@ -1,5 +1,5 @@
 package sec03.exam01;
-
+//0625 ë³µìŠµ
 public class test2 {
 
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class test2 {
 		x = 2;
 		int y = 3;
 		int z = x + y;
-		// ÀÚµ¿ Á¤¸® ctrl + shift + f
+		// ì†ŒìŠ¤ì½”ë“œ ì •ë¦¬ ctrl + shift + f
 		System.out.println(z);
 		
 
