@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(110, 27, 27);
+}
+
+h2 {
+  color: rgb(48, 48, 177);
+}
+
+li {
+  color: #fF0000;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
