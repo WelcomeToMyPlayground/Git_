@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>디스플레이</title>
+  <style>
+    * {
+      box-sizing: border-box; /* 박스 사이즈를 외곽선 포함해서 설정 ex width 200 border 2px 이면 원래 200 + 좌우 2 = 204 but 총 200으로 맞춤 = 196 + 좌우 2, inline-block 은 padding과 margin때문에 사용 */ 
+    }
+
+    nav ul {
+      /*nav 밑 ul태그 */
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      border: 1px solid #222;
+      padding: 20px;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>메뉴 1</li>
+      <li>메뉴 2</li>
+      <li>메뉴 3</li>
+      <li>메뉴 4</li>
+    </ul>
+  </nav>
+</body>
+
+</html>
