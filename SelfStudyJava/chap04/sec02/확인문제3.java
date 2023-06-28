@@ -1,4 +1,4 @@
-package sec01;
+package sec02;
 
 public class 확인문제3 {
 
