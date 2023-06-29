@@ -4,7 +4,7 @@ public class for문연습 {
 
 	public static void main(String[] args) {
 
-		// 87에서 34까지 출력
+		// 87에서 34까지 출력, 반복횟수를 알 때 사용가능
 
 		for (int i = 87; i > 33; i--) {
 			System.out.println(i);

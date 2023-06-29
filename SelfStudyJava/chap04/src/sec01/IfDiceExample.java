@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class IfDiceExample {
 
 	public static void main(String[] args) {
-		// (int),(double)...(Math.random() * ê°œìˆ˜) + ì´ˆê¸°ê°’;
+		// (Math.random() * °³¼ö) + ÃÊ±â°ª;
 
 		Scanner s = new Scanner(System.in);
 		int num = (int) (Math.random() * 6) + 1;
 		int num2 = s.nextInt();
 
 		if (num == num2) {
-			System.out.println("ë‘ ìˆ˜ê°€ ì¼ì¹˜í•©ë‹ˆë‹¤.");
+			System.out.println("µÎ ¼ö°¡ ÀÏÄ¡ÇÕ´Ï´Ù.");
 		} else if (num > num2) {
-			System.out.println("ì»´í“¨í„° ìˆ«ìê°€ ë” í½ë‹ˆë‹¤.");
+			System.out.println("ÄÄÇ»ÅÍ ¼ıÀÚ°¡ ´õ Å®´Ï´Ù.");
 
 		} else if (num < num2) {
-			System.out.println("ì‚¬ìš©ì ìˆ«ìê°€ ë” í½ë‹ˆë‹¤.");
+			System.out.println("»ç¿ëÀÚ ¼ıÀÚ°¡ ´õ Å®´Ï´Ù.");
 		}
 
 	}
