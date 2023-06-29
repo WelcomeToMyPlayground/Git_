@@ -2,7 +2,7 @@ package sec02;
 
 import java.util.Scanner;
 
-public class for¹®¿¹Á¦ {
+public class for ë¬¸ ì˜ˆì œ {
 
 	public static void main(String[] args) {
 
