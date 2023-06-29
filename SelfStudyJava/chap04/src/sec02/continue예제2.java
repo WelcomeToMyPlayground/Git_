@@ -1,10 +1,10 @@
 package sec02;
 
-public class continue¿¹Á¦2 {
-	/* continue´Â »ı·«~ */
+public class continueì˜ˆì œ2 {
+	/* continueëŠ” ìƒëµ~ , iì˜ ë‚˜ë¨¸ì§€ë‹¤. */
 	public static void main(String[] args) {
-		for (int i = 1; i <= 100; i++) { // 1ºÎÅÍ 10±îÁö 10¹ø ¹İº¹
-			if (i % 15!= 0) {   //i°¡ È¦¼ö¸é continue => »ı·«
+		for (int i = 1; i <= 100; i++) { // 1ë¶€í„° 10ê¹Œì§€ 10ë²ˆ ë°˜ë³µ
+			if (i % 15!= 0) {   //iê°€ í™€ìˆ˜ë©´ continue => ìƒëµ
 				continue;       //if(i%3!=0){continue; if(i%5!=0){continue;}}
 			}			        //if(i%3!=0 ||i%5!=0){continue;}
 			System.out.println(i);
