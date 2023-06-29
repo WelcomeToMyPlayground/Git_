@@ -1,0 +1,43 @@
+div {
+  border: 1px solid #222;
+ margin: 20px;
+  padding: 20px;
+
+}
+
+#description {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+#receipe{
+ 
+}
+#package {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+ 
+}
+
+#container {
+  width: 600px;
+  border: none;
+  margin: auto;
+}
+
+table,
+td,
+th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
+
+/*margin 10 20px; = 위아래 10 좌우 20
+ margin auto = 화면에 따라서 자동으로 가운데 맞춤
+ 마진 중첩 현상: 요소를 세로로 배치할 경우 마진과 마진이 만날 때 큰 값으로 중첩된다.
+*/
