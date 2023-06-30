@@ -1,9 +1,9 @@
 package sec02;
 
-public class ¹è¿­1 {
+public class ë°°ì—´Â­1 {
 
 	public static void main(String[] args) {
-		int[] score = { 50, 80, 90 }; /* ¹è¿­ÀÇ ½ÃÀÛÀº 0ºÎÅÍ  */
+		int[] score = { 50, 80, 90 }; /* Â¹Ã¨Â¿Â­Ã€Ã‡ Â½ÃƒÃ€Ã›Ã€Âº 0ÂºÃÃ…Ã  */
 		for (int i = 0; i <= 2; i++) {
 			System.out.println(score[i]);
 		}
