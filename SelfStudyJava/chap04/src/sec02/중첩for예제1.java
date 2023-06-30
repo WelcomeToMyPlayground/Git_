@@ -1,10 +1,10 @@
 package sec02;
 
-public class ÁßÃ¸for¿¹Á¦1 {
+public class ì¤‘ì²©Â¸forì˜ˆì œ1 {
 
 	public static void main(String[] args) {
 		for (int m = 2; m <= 9; m++) {
-			System.out.println("*** " + m + "´Ü ***");
+			System.out.println("*** " + m + "Â´Ãœ ***");
 			for (int n = 1; n <= 9; n++) {
 				System.out.println(m + " x " + n + " = " + (m * n));
 
