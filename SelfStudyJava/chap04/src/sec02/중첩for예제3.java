@@ -1,6 +1,6 @@
 package sec02;
 
-public class ÁßÃ¸for¿¹Á¦3 {
+public class ì¤‘ì²© forì˜ˆì œ3 {
 
 	public static void main(String[] args) {
 
