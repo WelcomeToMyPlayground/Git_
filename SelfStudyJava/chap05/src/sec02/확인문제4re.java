@@ -2,28 +2,29 @@ package sec02;
 
 import java.util.Scanner;
 
-public class È®ÀÎ¹®Á¦4re {
+public class í™•ì¸ë¬¸ì œ4re {
 
 	public static void main(String[] args) {
 
-		// »ç¿ëÀÚ·ÎºÎÅÍ ¹è¿­ °³¼ö ÀÔ·Â¹ŞÀ¸¼¼¿ä, ¹è¿­ °³¼ö¸¸Å­ ¼ıÀÚ¸¦ ÀÔ·Â ¹Ş¾Æ¼­ ¹è¿­¿¡ »ğÀÔÇÏ¼¼¿ä, ÇØ´ç ¹è¿­¿¡¼­ °¡Àå ÀÛÀº ¼ıÀÚ¸¦ Ãâ·ÂÇÏ¼¼¿ä, ´Ü
-		// ¼ıÀÚ´Â ¾ç¼ö¸¸ °¡´É
+		// ì‚¬ìš©ìë¡œë¶€í„° ë°°ì—´ ê°œìˆ˜ ì…ë ¥ë°›ìœ¼ì„¸ìš”, ë°°ì—´ ê°œìˆ˜ë§Œí¼ ìˆ«ìë¥¼ ì…ë ¥ ë°›ì•„ì„œ ë°°ì—´ì— ì‚½ì…í•˜ì„¸ìš”, í•´ë‹¹ ë°°ì—´ì—ì„œ ê°€ì¥ ì‘ì€ ìˆ«ìë¥¼ ì¶œë ¥í•˜ì„¸ìš”, ë‹¨
+		// ìˆ«ìëŠ” ì–‘ìˆ˜ë§Œ ê°€ëŠ¥
 
-		Scanner s = new Scanner(System.in);
-		System.out.println("¹è¿­ °³¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
-		int num[] = new int[s.nextInt()];
-		for (int i = 0; i < num.length; i++) {
-			System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
-			num[i] = s.nextInt();
-			int min = num[0];
-			for (int j = 0; j < num.length; j++) {
-				if (min > num[j]) {
-					min = num[j];
-				}
+        Scanner s = new Scanner(System.in);
+        System.out.println("ë°°ì—´ ê°œìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+        int[] num = new int[s.nextInt()];
 
-			}
-			System.out.println("ÃÖ¼Ò°ª : " + min);
-		}
-	}
+        for (int i = 0; i < num.length; i++) {
+            System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+            num[i] = s.nextInt();
+            int min =num[0];
+            if(min >num[i]){
+                min=num[i];
+            }
+            System.out.println(min);
+        }
 
+    }
 }
+
+
+
