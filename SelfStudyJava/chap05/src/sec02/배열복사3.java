@@ -2,32 +2,32 @@ package sec02;
 
 import java.util.Scanner;
 
-public class ¹è¿­º¹»ç3 {
+public class ë°°ì—´ë³µì‚¬3 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 
 		String[] person = new String[3];
 		for (int i = 0; i < person.length; i++) {
-			System.out.println("ÇĞ»ı ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("í•™ìƒ ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			person[i] = s.next();
 		}
 		String[] person2 = new String[5];
 		System.arraycopy(person, 0, person2, 0, person.length);
-		for (int i = 0; i < person2.length - 2; i++) {
-			System.out.println(person2[i]);
+		for (int i = 0; i < person2.length; i++) {
 			if (i >= 3) {
-				person2[i] = "¿µ¼ö";
+			person2[i] = "ì˜ìˆ˜";
 
 			}
+			System.out.println(person2[i]);
 		}
 
-		// »ç¿ëÀÚ¿¡°Ô 3¸íÀÇ ÀÌ¸§À» ÀÔ·Â¹Ş¾Æ ¹è¿­¿¡ ÀúÀåÇÏ¼¼¿ä
-		// String Å¸ÀÔÀÇ 5°³Â¥¸® ¹è¿­À» º°µµ·Î »ı¼ºÇÏ¼¼¿ä.
-		// Ã¹¹øÂ° ¹è¿­¿¡¼­ µÎ¹øÂ° ¹è¿­·Î °ªÀ» º¹»çÇÏ¼¼¿ä.
+		// ì‚¬ìš©ìì—ê²Œ 3ëª…ì˜ ì´ë¦„ì„ ì…ë ¥ë°›ì•„ ë°°ì—´ì— ì €ì¥í•˜ì„¸ìš”
+		// String íƒ€ì…ì˜ 5ê°œì§œë¦¬ ë°°ì—´ì„ ë³„ë„ë¡œ ìƒì„±í•˜ì„¸ìš”.
+		// ì²«ë²ˆì§¸ ë°°ì—´ì—ì„œ ë‘ë²ˆì§¸ ë°°ì—´ë¡œ ê°’ì„ ë³µì‚¬í•˜ì„¸ìš”.
 
-		// µÎ¹øÂ° ¹è¿­¿¡ Ã¶¼ö, ¿µÈñ,¼øÈñ,null,null
-		// µÎ¹øÂ° ¹è¿­ÀÇ null °ªÀ» ¿µ¼ö·Î Ã¤¿ì¼¼¿ä
+		// ë‘ë²ˆì§¸ ë°°ì—´ì— ì² ìˆ˜, ì˜í¬,ìˆœí¬,null,null
+		// ë‘ë²ˆì§¸ ë°°ì—´ì˜ null ê°’ì„ ì˜ìˆ˜ë¡œ ì±„ìš°ì„¸ìš”
 
 	}
 
