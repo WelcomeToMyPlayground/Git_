@@ -2,28 +2,28 @@ package sec01;
 
 import java.util.Scanner;
 
-public class ë¬¸ìì—´ë¹„êµ {
+public class ¹®ÀÚ¿­ºñ±³ {
 
 	public static void main(String[] args) {
-		String var1 = "í™ê¸¸ë™"; // ë³€ìˆ˜ ì‚¬ìš© ì•ˆí•´ì„œ ê²½ê³  
-		String var2 = "í™ê¸¸ë™";
+		//String var1 = "È«±æµ¿"; // º¯¼ö »ç¿ë ¾ÈÇØ¼­ °æ°í 
+		//String var2 = "È«±æµ¿";
 
 		Scanner s = new Scanner(System.in);
 		String a = s.next();
 		String b = s.next();
 		s.close();
 		if (a == b) {
-			System.out.println("ë‘ ë°ì´í„° ì°¸ì¡°ê°€ ê°™ì•„ìš”");
+			System.out.println("µÎ µ¥ÀÌÅÍ ÂüÁ¶°¡ °°¾Æ¿ä");
 		} else {
-			System.out.println("ë‘ ë°ì´í„° ì°¸ì¡°ê°€ ë‹¬ë¼ìš”"); // ë°ì´í„° ì°¸ì¡°ê°€ ë‹¤ë¥´ë‹¤. -> newwë¡œ ë°›ì•˜ê¸° ë•Œë¬¸ì— ì°¸ì¡°ë³€ìˆ˜ String a,bì˜ ì£¼ì†Œê°€ ê°ê° ë‹¤ë¦„ 
+			System.out.println("µÎ µ¥ÀÌÅÍ ÂüÁ¶°¡ ´Ş¶ó¿ä");
 
 		}
-		String var3 = new String("í™ê¸¸ë™");
-		String var4 = new String("í™ê¸¸ë™");
+		String var3 = new String("È«±æµ¿");
+		String var4 = new String("È«±æµ¿");
 		if (var3 == var4) {
-			System.out.println("ë‘ ë°ì´í„° ì°¸ì¡°ê°€ ê°™ì•„ìš”");
+			System.out.println("µÎ µ¥ÀÌÅÍ ÂüÁ¶°¡ °°¾Æ¿ä");
 		} else {
-			System.out.println("ë‘ ë°ì´í„° ì°¸ì¡°ê°€ ë‹¬ë¼ìš”");
+			System.out.println("µÎ µ¥ÀÌÅÍ ÂüÁ¶°¡ ´Ş¶ó¿ä"); // new °ªÀ» ¹Ş´Â ¼ø°£ StringÁÖ¼Ò°¡ ¼­·Î ´Ş¶ó¼­ ¾ÈÀÇ µ¥ÀÌÅÍ°ªÀÌ °°¾Æµµ ´Ù¸£´Ù°í Ç¥½Ã equals»ç¿ëÇØ¾ßÇÔ..
 		}
 		
 		String t;
