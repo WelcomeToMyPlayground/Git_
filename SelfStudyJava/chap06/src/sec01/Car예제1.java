@@ -1,6 +1,6 @@
 package sec01;
 
-public class Car¿¹Á¦1 {
+public class Carì˜ˆì œ1 {
 
 	public static void main(String[] args) {
 	Car s1 = new Car();
