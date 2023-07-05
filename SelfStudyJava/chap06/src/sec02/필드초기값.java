@@ -14,5 +14,5 @@ public class필드초기값 {
 
 	int[] arrField;
 	String referenceField;
-	//ÂüÁ¶Çü = ¹è¿­, String, enum
+	
 }
