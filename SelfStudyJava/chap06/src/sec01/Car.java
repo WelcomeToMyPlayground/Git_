@@ -2,10 +2,10 @@ package sec01;
 
 public class Car {
 
-	int speed; // ¼Óµµ
-	String company; // È¸»ç
-	int price; // °¡°İ
-	String color; // »ö»ó
+	int speed; // ì†ë„
+	String company; // íšŒì‚¬
+	int price; // ê°€ê²©
+	String color; // ìƒ‰ìƒ
 	public Car() {
 	}
 	public int getSpeed() {
