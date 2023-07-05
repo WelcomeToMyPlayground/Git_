@@ -1,7 +1,7 @@
 package sec02;
 
 public class Member {
-	// �ʵ尪
+	// 필드
 	String name;
 	String id;
 	String password;
