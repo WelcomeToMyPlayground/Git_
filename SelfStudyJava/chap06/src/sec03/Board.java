@@ -7,14 +7,14 @@ public class Board {
 	String date;
 	int hitcount;
 	
-//»ı¼ºÀÚ ¸¸µé ½Ã publicÀÔ·Â ¾ÈÇØµµ »ó°ü¾øÀ½~~
+//ìƒì„±ì ë§Œë“¤ ì‹œ publicì…ë ¥ ì•ˆí•´ë„ ìƒê´€ì—†ìŒ(ì–´ì§€ê°„í•˜ë©´ ì…‹íŒ…ê°’ ex)Board(){} ì„¤ì •í•´ë†“ëŠ”ê²Œ í¸í•¨)
 	
 	 Board(String title, String content) {
-		this(title, content, "·Î±×ÀÎÇÑ È¸¿ø¾ÆÀÌµğ", "ÇöÀç ÄÄÇ»ÅÍ ³¯Â¥", 0);
+		this(title, content, "ë¡œê·¸ì¸í•œ íšŒì›ì•„ì´ë””", "í˜„ì¬ ì»´í“¨í„° ë‚ ì§œ", 0);
 	}
 
 	 Board(String title, String content, String writer) {
-		this(title, content, writer, "ÇöÀç ÄÄÇ»ÅÍ ³¯Â¥", 0);
+		this(title, content, writer, "í˜„ì¬ ì»´í“¨í„° ë‚ ì§œ", 0);
 	}
 
 	Board(String title, String content, String writer, String date) {
