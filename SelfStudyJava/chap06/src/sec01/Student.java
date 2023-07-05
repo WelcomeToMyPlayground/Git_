@@ -3,7 +3,7 @@ package sec01;
 public class Student { // public class Student = 라이브러리(API) 클래스
 	// 학생이 갖고 있는 속성(필드)
 	int age; // 나이
-	String gendar; // 성별
+	String gender; // 성별
 	String name; // 이름
 
 	public Student() { // Student의 생성자, 객체 생성시 초기화 
@@ -19,11 +19,11 @@ public class Student { // public class Student = 라이브러리(API) 클래스
 	}
 
 	public String getGendar() {
-		return gendar;
+		return gender;
 	}
 
 	public void setGendar(String gendar) {
-		this.gendar = gendar;
+		this.gender = gendar;
 	}
 
 	public String getName() {
