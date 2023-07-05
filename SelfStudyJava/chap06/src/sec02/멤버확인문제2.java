@@ -1,6 +1,6 @@
 package sec02;
 
-public class ¸â¹öÈ®ÀÎ¹®Á¦2 {
+public class ë©¤ë²„í™•ì¸ë¬¸ì œ2 {
 
 	public static void main(String[] args) {
 		Member member = new Member();
