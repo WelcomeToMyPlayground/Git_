@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+#signup {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+#signup fieldset {
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+#signup ul li {
+  line-height: 30px;
+  /* line-height는 li 태그 글자간 간격 벌림 */
+  list-style: none;
+  margin-bottom: 2px;
+  padding: 5px 10px;
+}
+
+#signup button {
+  border: 1px solid #222;
+  /*외곽선 설정 */
+  border-radius: 20px;
+  /* 외곽선 둥글게*/
+  display: block; /* 버튼은 인라인 방식이기 때문에 block으로 바꿔줘야 가운데 정렬이 가능함*/
+  font-size: 16px;
+  /* 글꼴 및 글자 크기*/
+  font-family: '맑은 고딕', 굴림, 돋움;
+  /* 글꼴에 띄어쓰기 있으면 작은 따옴표로 묶어줘야함*/
+  letter-spacing: 1px;
+  /* 글자 간격*/
+  margin: auto;
+  /*위아래 좌우 가운데 맞춤*/
+  padding: 7px 25px;
+  /*내부 여백 위아래 7 좌우 25*/
+
+}
+
+#signup legend {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+#signup label{
+  float: left; /*왼쪽으로 붙임 */
+  font-size: 13px;
+  width: 110px; /*왼쪽 글자에 너비를 통합 */
+}
