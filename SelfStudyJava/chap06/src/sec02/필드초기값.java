@@ -1,6 +1,6 @@
 package sec02;
 
-public class ÇÊµåÃÊ±â°ª {
+public classí•„ë“œì´ˆê¸°ê°’ {
 	byte byteField;
 	short shortField;
 	int intField;
@@ -14,5 +14,5 @@ public class ÇÊµåÃÊ±â°ª {
 
 	int[] arrField;
 	String referenceField;
-	//ÂüÁ¶Çü = ¹è¿­, String, enum
+	//Ã‚Ã¼ÃÂ¶Ã‡Ã¼ = Â¹Ã¨Â¿Â­, String, enum
 }
