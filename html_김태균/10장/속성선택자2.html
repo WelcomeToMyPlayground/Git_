@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>속성 선택자</title>
+  <style>
+    ul {
+      list-style: none;
+      /*list-style은 ul태그에 배치 */
+    }
+
+    ul li {
+      width: 50px;
+      padding: 20px 50px;
+      border: 1px solid black;
+      background: yellow;
+      display: inline-block;
+      /*인라인 블럭은 패딩값과 마진값을 줄 수 있음but 인라인은 못줌 */
+      margin: 20px;
+    }
+
+    ul li a {
+      text-decoration: none;
+    }
+
+    a[target="_black"] {
+      color: blue;
+      background-color: aqua;
+
+    }
+
+    a[href="abc"] {
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a>정치</a></li>
+    <li><a href="#" target="_black">경제</a></li>
+    <li><a href="abc">사회</a></li>
+    <li>
+      <a">문화</a>
+    </li>
+  </ul>
+
+</body>
+
+</html>

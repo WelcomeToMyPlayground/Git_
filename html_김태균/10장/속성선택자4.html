@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>속성 선택자</title>
+  <style>
+    ul {
+      list-style: none;
+      /*list-style은 ul태그에 배치 */
+    }
+
+    ul li {
+      width: 40px;
+      padding: 20px 50px;
+      border: 1px solid black;
+      background: yellow;
+      display: inline-block;
+      /*인라인 블럭은 패딩값과 마진값을 줄 수 있음but 인라인은 못줌 */
+      margin: 20px;
+    }
+
+    ul li a {
+      text-decoration: none;
+    }
+  [class ~= "button"] { /* class 속성 값에 button이 포함된 요소를 찾는 선택자 */
+    box-shadow: rgba(0, 0, 0, 0.4)4px 4px; 
+    border-radius: 5px ;
+  }
+
+
+    /* class는 중복적용 가능 ex .flat이나 .button에 스타일을 적용하면 flat button에도 둘 다 적용된다. */
+  </style>
+</head>
+
+<body>
+<ul>
+<li class="flat">정치</li> 
+<li class="flat">경제</li>
+<li class="button">사회</li>
+<li class="flat button">문화</li>
+</ul>
+
+</body>
+
+</html>

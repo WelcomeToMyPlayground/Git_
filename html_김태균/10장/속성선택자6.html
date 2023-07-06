@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>속성 선택자</title>
+  <style>
+    ul{
+      list-style: none;
+    }
+    li{
+      display: inline-block;
+      margin: 10px;
+    }
+    li a {
+      padding: 5px 20px;
+      font-size: 14px;
+      color: blue;
+      text-decoration: none;
+    }
+    a[href *= na]{ /* *= 일부 속성값이 일치하는 요소를 선택하는 선택자 */
+      background: blue;
+      color: white;
+    }
+  </style>                   
+</head>   
+<body>
+</body>
+<ul>
+  <li>주요 포탈 사이트:</li>
+  <li><a href="https://www.daum.net">다음</a></li>
+  <li><a href="https://www.naver.com">네이버</a></li>
+  <li><a href="https://www.google.com">구글</a></li>
+</ul>
+</html>
