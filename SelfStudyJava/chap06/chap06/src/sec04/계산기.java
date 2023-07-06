@@ -1,21 +1,21 @@
 package sec04;
 
-public class °è»ê±â {
-	void powerOn() { // ¸Ş¼Òµå
-		System.out.println("Àü¿øÀ» ÄÕ´Ï´Ù.");
+public class ê³„ì‚°ê¸° {
+	void powerOn() { // ë©”ì†Œë“œ
+		System.out.println("ì „ì›ì„ ì¼­ë‹ˆë‹¤.");
 	}
 
-	void powerOff() { // ¸Ş¼Òµå
-		System.out.println("Àü¿øÀ» ²ü´Ï´Ù.");
+	void powerOff() { // ë©”ì†Œë“œ
+		System.out.println("ì „ì›ì„ ë•ë‹ˆë‹¤.");
 	}
 
-	int plus(int x, int y) { // void°¡ ¾øÀ¸¸é return°ªÀ» ¹İµå½Ã ¹Ş¾ÆÁà¾ßÇØ~
+	int plus(int x, int y) { // voidê°€ ì—†ìœ¼ë©´ returnê°’ì„ ë°˜ë“œì‹œ ë°›ì•„ì¤˜ì•¼í•´~
 		int result = x + y;
 		return result;
 	}
 
-	int minus(int x, int y) { // ¸Ş¼Òµå ¾È¿¡¼­ if¹® »ç¿ë °¡´É 
-		int result; // if¹® ¾È¿¡¼­ int result·Î ¼±¾ğ ½Ã return°ªÀ» ¹ŞÀ» ¼ö ¾ø´Ù.. ±×·¡¼­ ÃÊ±â¿¡ ¼±¾ğÀ» ÇÑ´Ù~
+	int minus(int x, int y) { // ë©”ì†Œë“œ ì•ˆì—ì„œ ifë¬¸ ì‚¬ìš© ê°€ëŠ¥ 
+		int result; // ifë¬¸ ì•ˆì—ì„œ int resultë¡œ ì„ ì–¸ ì‹œ returnê°’ì„ ë°›ì„ ìˆ˜ ì—†ë‹¤.. ê·¸ë˜ì„œ ì´ˆê¸°ì— ì„ ì–¸ì„ í•œë‹¤~
 		if (x < y) {
 			result = y - x;
 
@@ -26,15 +26,15 @@ public class °è»ê±â {
 		return result;
 	}
 
-	// x³ª y°¡ 0ÀÌ¸é "0Àº ÀÔ·ÂÇÒ ¼ö ¾ø½À´Ï´Ù. ¶ó°í ³ª¿À°Ô Ãâ·Â ¾Æ´Ï¸é Á¤»óÃâ·Â
-	// ÆÄ¶ó¹ÌÅÍ´Â Å¬·¡½º¿Í º¯¼ö ´Ş¶óµµ »ó°ü¾øÀ½ ex) String mul ( int x, int y)
+	// xë‚˜ yê°€ 0ì´ë©´ "0ì€ ì…ë ¥í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤. ë¼ê³  ë‚˜ì˜¤ê²Œ ì¶œë ¥ ì•„ë‹ˆë©´ ì •ìƒì¶œë ¥
+	// íŒŒë¼ë¯¸í„°ëŠ” í´ë˜ìŠ¤ì™€ ë³€ìˆ˜ ë‹¬ë¼ë„ ìƒê´€ì—†ìŒ ex) String mul ( int x, int y)
 	String mul(int x, int y) {
 		if (x == 0 || y == 0) {
-			String message = "0Àº ÀÔ·ÂÇÒ ¼ö ¾ø½À´Ï´Ù.";
+			String message = "0ì€ ì…ë ¥í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.";
 			return message;
 		} else {
 			int result = x * y;
-			return String.valueOf(result);
+			return String.valueOf(result); // String.valueOf intê°’ì„ Stringìœ¼ë¡œ ë³€í™˜
 		}
 
 	}
