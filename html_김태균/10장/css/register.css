@@ -53,7 +53,7 @@ body {
 }
 
 #signup legend {
-  padding-bottom: 10px;
+  padding-bottom: 10px; /*글자 위로 올림*/
   padding-left: 5px;
   font-weight: bold;
   font-size: 16px;
