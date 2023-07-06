@@ -63,3 +63,20 @@ body {
   font-size: 13px;
   width: 110px; /*왼쪽 글자에 너비를 통합 이렇게 해야 칸이 다 똑같이 만들어짐 */
 }
+
+#signup input[type=text],  #signup input[type=password], #signup input[type=tel], #signup input[type=email] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 5px;
+  width: 200px;
+}
+
+#signup input[required] {
+  border: 1px solid red;
+}  
+
+#signup input[readonly] {
+  border: none;    /* readonly인 부분 테두리 제거*/
+}  
+
