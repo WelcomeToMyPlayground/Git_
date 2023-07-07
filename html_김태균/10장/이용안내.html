@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <style>
+    ul {
+      list-style: none;
+      border-bottom: 1px solid lightgrey;
+    }
+
+    ul li {
+      display: inline-block;
+      margin: 0px 20px;
+      padding: 20px 20px;
+      margin-left: 50px;
+    }
+
+    fieldset {
+      border: 2px solid black;
+      width: 400px;
+      height: 500px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+
+    .a {
+      border: 1px solid lightgrey;
+      margin-bottom: 30px;
+      height: 150px;
+      padding-left: 30px;
+      padding: 30px;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+
+    .b {
+      border: 1px solid lightgrey;
+      height: 200px;
+      padding-left: 30px;
+      line-height: 30px;
+    }
+
+    input[type="submit"] {
+      border-radius: 30px;
+      width: 80px;
+      margin-left: 160px;
+      margin-top: 20px;
+      height: 30px;
+    }
+
+    a :hover {
+      background-color: black;
+      color: white;
+
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="#">이용 안내</a></li>
+    <li><a href="#">객실 소개</a></li>
+    <li><a href="#">예약 방법 및 요금</a></li>
+    <li><a href="#">예약하기</a></li>
+  </ul>
+  <form>
+    <fieldset>
+      <div class="a">
+        <legend><b>개인 정보</b></legend>
+        <table>
+          <tr>
+            <td>이름</td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td>연락처</td>
+            <td><input type="text"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="b">
+        <legend><b>객실 형태</b></legend>
+        <table>
+          <tr>
+            <td><input type="radio">기본형(최대2인)</td>
+          </tr>
+          <tr>
+            <td><input type="radio">가족형(최대8인)</td>
+          </tr>
+        </table>
+      </div>
+      <input type="submit" value="제출">
+    </fieldset>
+  </form>
+</body>
+
+</html>

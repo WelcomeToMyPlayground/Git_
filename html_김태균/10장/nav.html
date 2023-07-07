@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>홈페이지 이용 안내</title>
+  <style>
+    *{
+      padding: 0;
+    }
+    .container {
+      width: 960px;
+      /*너비 설정*/
+      margin: 0 auto;
+      /*화면 가운데 맞춤 */
+    }
+
+    .navi {
+      width: 960px;
+      height: 60px;
+      padding-bottom: 10px;
+      /*아래쪽 안쪽 여백*/
+      border-bottom: 2px solid #ccc;
+      /* 아래쪽 밑줄*/
+    }
+
+    .navi ul {
+      list-style: none;
+      /*li 태그 동그라미 제거*/
+      padding-top: 10px;
+      /*위쪽 안쪽 여백*/
+      padding-bottom: 5px;
+      text-align: center;
+      /*아래쪽 안족 여백*/
+    }
+
+    .navi ul li {
+      display: inline-block;
+      width: 150px;
+      /*너비 150 + 패딩 10*/
+      padding: 10px;
+    }
+
+    /*방문하지 않은 링크와 방문한 링크 설정*/
+    .navi a:link,
+    .navi a:visited {
+      display: block;
+      font-size: 14px;
+      color: black;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    /* 마우스를 올려놓았을 때(hover)와 포커스(기준점)가 있을 때 설정 */
+    .navi a:hover,
+    .navi a:focus {
+      background-color: black;
+      color: white;
+    }
+
+    /* 마우스로 클릭했을 때 active */
+    .navi a:active {
+      background-color: #f00;
+    }
+
+    a:visited {
+      color: yellow;
+    }
+    a:hover {
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navi">
+      <ul>
+        <li><a href="#">이용 안내</a></li>
+        <li><a href="#">객실 안내</a></li>
+        <li><a href="#">예약 방법 및 요금</a></li>
+        <li><a href="#">예약하기</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container2">
+    <h1><a href="https://www.daum.net">다음</a></h1>
+  </div>
+
+</body>
+
+</html>
