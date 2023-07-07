@@ -1,5 +1,5 @@
 package sec04;
-
+// 혼자 뻘짓
 public class MemberService {
 	String login;
 	String logout;
