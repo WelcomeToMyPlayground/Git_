@@ -4,7 +4,7 @@ public class MemberService2 {
 	String id;
 	String password;
 
-	boolean login(String id, String passworwd) {
+	boolean login(String id, String password) {
 		if (id.equals("hong") && password.equals("12345")) {
 			return true;
 		} else {
