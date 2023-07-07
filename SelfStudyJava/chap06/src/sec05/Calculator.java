@@ -5,7 +5,7 @@ public class Calculator {
 	
 	static int plus(int x, int y) {
 		
-		return x + y;  // return plus가 아닌 return x+y;?
+		return x + y;  // return plus가 아닌 return x+y;도 가능, 변수값 설정하는것도 가능 ex) int result = x+y;
 		
 	}
 	static int minus(int x, int y) {
