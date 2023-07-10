@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>구조선택자</title>
+  <style>
+    ul li:first-child{
+      /* 부모 안에 있는 요소 중 첫 번째 자식 요소 */
+      color: red;
+    }
+    ul li:last-child{
+      /* 부모 안에 있는 요소 중 마지막 자식 요소 */
+      color: blue;
+    }
+    ul li:nth-child(2n){
+      /* 부모 안에 있는 요소 중 짝수 자식 요소  == even*/
+      color: purple;
+    }
+    ul li:nth-child(2n-1){
+      /* 부모 안에 있는 요소 중 홀수 자식 요소  == odd*/
+      color: brown;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+  <li>HTML</li>
+  <li>CSS3</li>
+  <li>자바스크립트</li>
+  <li>제이쿼리</li>
+</ul>
+</body>
+</html>
