@@ -7,10 +7,10 @@ public class ComputerExample {
 		int r = 10;
 
 		Calculator calculator = new Calculator();
-		System.out.println("¿øÀÇ ¸éÀû : " + calculator.areaCircle(r));
+		System.out.println("ì›ì˜ ë©´ì  : " + calculator.areaCircle(r));
 		
 		Computer2 computer = new Computer2();
-		System.out.println("¿øÀÇ ¸éÀû : " + computer.areaCircle(r));
+		System.out.println("ì›ì˜ ë©´ì  : " + computer.areaCircle(r));
 	}
 
 }
