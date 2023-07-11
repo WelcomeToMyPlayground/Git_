@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>마무리문제2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      margin: 30px;
+      list-style: none;
+      text-align: center;
+    }
+
+    ul li:not(:last-child) {
+      /*inline block vs float = 인라인블록은 기본적으로 마진값과 패딩값이 포함되어 있다. float는 마진과 패딩이 없다.*/
+      border-right: 1px solid black;
+    }
+
+    ul li:not(:last-child):hover { /*반응 선택자 태그 ex)link, visited, active, hover 는 :link, :hover 이런식으로 써야합니다.*/
+      background-color: #555;
+      color: #fff;
+    }
+
+    ul li {
+      float: left;
+      background-color: lightgrey;
+      width: 100px;
+      padding: 10px 30px;
+    }
+
+    ul li:hover {
+
+      background-color: #b30000;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>메뉴1</li>
+    <li>메뉴2</li>
+    <li>메뉴3</li>
+    <li>메뉴4</li>
+    <li>메뉴5</li>
+    <li>메뉴6</li>
+  </ul>
+
+</body>
+
+</html>
