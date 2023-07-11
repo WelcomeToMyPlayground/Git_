@@ -1,4 +1,4 @@
 package sec06.exam02.hankook;
-class Tire2 { // hankook ÆĞÅ°Áö¿¡¼­¸¸ »ç¿ë°¡´É
+class Tire2 { // hankook íŒ¨í‚¤ì§€ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥
 
 }
