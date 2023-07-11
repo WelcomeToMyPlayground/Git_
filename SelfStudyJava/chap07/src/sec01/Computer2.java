@@ -4,7 +4,7 @@ public class Computer2 extends Calculator{
 
 	@Override
 	double areaCircle(double r) {
-		System.out.println("Computer2ÀÇ areaCircle() ½ÇÇà");
+		System.out.println("Computer2ì˜ areaCircle() Ëì‹¤í–‰");
 		return Math.PI * r * r;
 		
 		
