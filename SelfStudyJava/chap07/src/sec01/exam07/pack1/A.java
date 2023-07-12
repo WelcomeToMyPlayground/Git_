@@ -3,11 +3,11 @@ package sec01.exam07.pack1;
 public class A {
 	protected String field;
 
-	protected A() { // protected »ı¼ºÀÚ
+	protected A() { // protected ìƒì„±ì
 
 	}
 
-	protected void method() { // protected ¸Ş¼Òµå
+	protected void method() { // protected ë©”ì†Œë“œ
 
 	}
 
