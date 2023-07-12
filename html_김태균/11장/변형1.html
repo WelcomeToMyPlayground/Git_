@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>변형1</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background: orange;
+      border: 1px solid black;
+      float: left;
+      margin-right: 30px;
+    }
+    #a:hover{
+      /*transform: translateX(10px); /*마우스 올렸을 때 오른쪽으로 10만큼 */
+      transition: 1s; /*1초 동안 변형*/
+      transform: translateX(50px) scale(0.5);/*오른쪽으로 50 크기 절반으로 줄임*/
+      background: red;
+    }
+    #b:hover{
+      /*transform: translateY(30px); /*아래로 30만큼*/
+      transform: rotate(75deg) translateY(120px); /*75도 회전, 아래로 120만큼 이동*/
+      background: yellow;
+    }
+    #c:hover{
+      transform: translate(20px,20px); /*오른쪽 아래로 20씩*/
+      transition: 3s;
+      background: blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="a"></div>
+  <div id="b"></div>
+  <div id="c"></div>
+</body>
+
+</html>
