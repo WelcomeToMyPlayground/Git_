@@ -1,10 +1,10 @@
 package sec01;
 
-public class Ã‡ÃÂ»Ã½Â½Ã‡Ã‡Ã Â±Â¸Â¹Â® {
+public class ÇĞ»ı½ÇÇà±¸¹® {
 
 	public static void main(String[] args) {
 		Student s = new Student(80,190,1234);
-		String result = s.eat("í–„ë²„ê±°");
+		String result = s.eat("ÇÇÀÚ");
 		System.out.println(result);
 		
 			

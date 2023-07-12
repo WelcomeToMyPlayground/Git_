@@ -16,7 +16,7 @@ public class Student extends Human {
 //		this.height = height; // 상속받은 필드
 //	}
 
-	void study(String place) {
+	void study(String place) { // String place 입력시 변수 입력 따로 안해도 바로 사용가능..?
 		System.out.println(place + "에서 공부합니다.");
 	}
 

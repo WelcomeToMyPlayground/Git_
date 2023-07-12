@@ -1,10 +1,10 @@
 package sec01.exam02;
 
 public class People {
-	public String name; // ì´ë¦„
-	public String ssn; // ì£¼ë¯¼ë²ˆí˜¸
+	public String name; // ÀÌ¸§
+	public String ssn; // ÁÖ¹Î¹øÈ£
 	
-	public People(String name, String ssn) {
+	public People(String name, String ssn) { // super(name,ssn)À» »ç¿ëÇÏ±â À§ÇÑ ±âº» °ª 
 		this.name = name;
 		this.ssn = ssn;
 	}

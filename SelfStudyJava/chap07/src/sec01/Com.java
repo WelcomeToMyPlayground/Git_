@@ -4,9 +4,9 @@ public class Com {
 
 	public static void main(String[] args) {
 		NoteBook com = new NoteBook("apple", 2500000, 20230711);
-		System.out.println("ì œì¡°íšŒì‚¬ : " + com.company);
-		System.out.println("ê°€ê²© : " + com.price + "ì›");
-		System.out.println("ì œì¡°ë…„ë„ : " + com.year);
+		System.out.println("Á¦Á¶È¸»ç : " + com.company);
+		System.out.println("°¡°İ : " + com.price + "¿ø");
+		System.out.println("ÇĞ¹ø : " + com.year);
 
 		NoteBook note = new NoteBook("i7 13300k","RTX4080ti");
 		System.out.println("cpu : " + note.cpu);
