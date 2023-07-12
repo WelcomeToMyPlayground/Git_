@@ -2,9 +2,9 @@ package sec01;
 
 public class Computer2 extends Calculator{
 
-	@Override // staticÀº override ºÒ°¡´É 
+	@Override // staticì€ override ë¶ˆê°€ëŠ¥ 
 	double areaCircle(double r) {
-		System.out.println("Computer2ÀÇ areaCircle() ½ÇÇà");
+		System.out.println("Computer2ì˜ areaCircle() ì‹¤í–‰");
 		return Math.PI * r * r;
 		
 		
