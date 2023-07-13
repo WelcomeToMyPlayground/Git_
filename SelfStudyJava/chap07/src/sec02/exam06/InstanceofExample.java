@@ -3,7 +3,7 @@ package sec02.exam06;
 public class InstanceofExample {
 
 	public static void main(String[] args) {
-		Parent parentA = new Child(); // child¸¦ parent¿¡ »ó¼Ó
+		Parent parentA = new Child(); // childë¥¼ parentì— ìƒì†
 		method1(parentA);
 
 		Parent parentB = new Parent();
@@ -12,11 +12,11 @@ public class InstanceofExample {
 
 	public static void method1(Parent parent) {
 
-		if (parent instanceof Child) { // °­Á¦ Å¸ÀÔ º¯È¯ Àü instanceof ¿¬»êÀÚ·Î °Ë»çÇÏ´Â °ÍÀÌ ÁÁÀ½
-			Child child = (Child) parent; // child¸¦ parent¿¡ »ó¼Ó½ÃÄ×±â ¶§¹®¿¡ °­Á¦Çüº¯È¯ °¡´É
-			System.out.println("°­Á¦ º¯È¯ ¼º°ø");
+		if (parent instanceof Child) { // ê°•ì œ íƒ€ì… ë³€í™˜ ì „ instanceof ì—°ì‚°ìë¡œ ê²€ì‚¬í•˜ëŠ” ê²ƒì´ ì¢‹ìŒ (but instanceofë¥¼ ì‚¬ìš©í•˜ëŠ” ê²ƒì€ ê°ì²´ì§€í–¥ ì–¸ì–´ì¸ ìë°”ì˜ ìº¡ìŠí™”ì˜ ì˜ë¯¸ë¥¼ ë¬´ìƒ‰í•˜ê²Œ í•˜ë¯€ë¡œ ê°€ê¸‰ì  ì§€ì–‘í•˜ëŠ” ê²ƒì„ ê¶Œì¥)
+			Child child = (Child) parent; // childë¥¼ parentì— ìƒì†ì‹œì¼°ê¸° ë•Œë¬¸ì— ê°•ì œí˜•ë³€í™˜ ê°€ëŠ¥
+			System.out.println("ê°•ì œ ë³€í™˜ ì„±ê³µ");
 		} else {
-			System.out.println("°­Á¦ º¯È¯ ½ÇÆĞ");
+			System.out.println("ê°•ì œ ë³€í™˜ ì‹¤íŒ¨");
 
 		}
 	}
