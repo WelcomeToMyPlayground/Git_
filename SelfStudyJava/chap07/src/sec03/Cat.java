@@ -3,11 +3,11 @@ package sec03;
 public class Cat extends Animal {
 
 	public Cat() {
-		this.kind = "Æ÷À¯·ù";
+		this.kind = "í¬ìœ ë¥˜";
 	}
 
 	@Override
 	public void sound() {
-		System.out.println("°í¾çÀÌ´Â ¾ß¿Ë");
+		System.out.println("ê³ ì–‘ì´ëŠ” ì•¼ì˜¹");
 	}
 }
