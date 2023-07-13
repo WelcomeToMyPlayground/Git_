@@ -1,18 +1,18 @@
 package sec03;
 
-public class Dog extends Animal { // Ãß»ó(abstract) ¸Ş¼Òµå sound¸¦ ±¸Çö½ÃÄÑ¾ßÇÑ´Ù. -> override ½ÃÄÑ¾ßÇÑ´Ù...
+public class Dog extends Animal { // ì¶”ìƒ(abstract) ë©”ì†Œë“œ soundë¥¼ êµ¬í˜„ì‹œì¼œì•¼í•œë‹¤. -> override ì‹œì¼œì•¼í•œë‹¤...
 
 	public Dog() {
-		this.kind = "Æ÷À¯·ù"; // AnimalÀÇ String kind È£Ãâ
+		this.kind = "í¬ìœ ë¥˜"; // Animalì˜ String kind í˜¸ì¶œ
 	}
 
-	/*
+	/* ë°©ë²• 2
 	 * public Dog(String kind) { this.kind = kind; }
 	 */
 
 	@Override
 	public void sound() {
-		System.out.println("°­¾ÆÁö´Â ¸Û¸Û");
+		System.out.println("ê°•ì•„ì§€ëŠ” ë©ë©");
 
 	}
 
