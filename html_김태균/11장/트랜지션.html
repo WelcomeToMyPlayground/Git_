@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <style>
+    .box{
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      transition-property: width, height; /*이동 대상*/
+      transition-duration: 2s,1s; /*너비는 2초 높이는 1초동안 이동*/
+    }
+    .box:hover{
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>트랜지션4</title>
+  <style>
+    #container {
+      width: 200px;
+      margin: 30px auto;
+    }
+
+    img {
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      box-shadow: 5px 5px 30px 2px #000;
+      transition: 2s;
+    }
+
+    #container:hover {
+      /*container에 hover 줄때랑 img에 hover줄때 각각 결과값이 다르다*/
+      transform: rotateZ(50000deg);
+      transition: 20s;
+    }
+
+    img:hover {
+      transition: 20s ease;
+      transform: rotateY(50000deg);    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <img src="images/bear.jpg">
+  </div>
+</body>
+
+</html>
