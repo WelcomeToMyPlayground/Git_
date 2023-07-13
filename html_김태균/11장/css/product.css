@@ -17,7 +17,7 @@ h1 {
   padding: 0;
   margin: 10px;
   overflow: hidden;
-  /* overflow : 구역을 넘기면 숨김 처리*/
+  /* overflow hidden: 구역을 넘기면 숨김 처리*/
 }
 
 .prod-list img {
