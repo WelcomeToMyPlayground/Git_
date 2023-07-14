@@ -13,7 +13,7 @@
     }
 
     #ball {
-      animation: kim 0.00001s infinite alternate; /* alternate 정방향 재생 후 역방향 재생 */
+      animation: kim 0.00001s infinite /*이름을 지정해야 애니메이션을 재생할 수 있다. */ alternate; /* alternate 정방향 재생 후 역방향 재생 */
       background-color: blue;
       width: 100px;
       height: 100px;
@@ -23,8 +23,8 @@
       left: 100px;
     }
 
-    @keyframes kim {
-      from { /* from 시작*/
+    @keyframes kim { 
+      from { /* 애니메이션 속성 프레임 from 시작*/
         top: 0;
       }
       to { /* to 끝*/
