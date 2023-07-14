@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>애니메이션1</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+    }
+
+    #box1 {
+      background-color: greenyellow;
+      animation-name: shape;
+      /* shape 이름 설정 후 @keyframes 연동*/
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      /* 지속 시간 3초*/
+    }
+    #box2{
+      background-color: blue;
+      animation-name: kim;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes shape {
+
+      /*from은 시작 to는 마지막*/
+      from {
+        border: 3px solid red;
+      }
+
+      50% {
+        border: 1px solid transparent;
+        border-radius: 50%;
+      }
+
+      to {
+        border: 3px solid red;
+        border-radius: 0%;
+      }
+    }
+    @keyframes kim{
+      from{
+        border: 3px solid black;
+      }
+      25%{
+        transform: translateX(1000px);
+        border: 5px solid transparent;
+        border-radius: 100%;
+      }
+      50%{
+        transform: translate(1000px,500px);
+        border: 5px solid transparent;
+        border-radius: 50%;
+        background: orange;
+      }
+      75%{
+        transform: translate(0px,500px);
+        border-radius: 30%;
+        background: aqua;
+      }
+      to{
+        transform: translate(0px, 0px);
+        background: red;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box" id="box1"></div>
+  <div class="box" id="box2"></div>
+  <div class="box" id="box3"></div>
+</body>
+
+</html>

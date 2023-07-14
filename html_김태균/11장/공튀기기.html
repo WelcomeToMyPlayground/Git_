@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>공튀기기</title>
+  <style>
+    .container {
+      border: 1px solid black;
+      width: 300px;
+      height: 200px;
+      margin: 30 auto;
+      position: relative; /*안에 가둬두기 ?*/
+    }
+
+    #ball {
+      animation: kim 0.00001s infinite alternate; /* alternate 정방향 재생 후 역방향 재생 */
+      background-color: blue;
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      background: pink;
+      position: absolute;
+      left: 100px;
+    }
+
+    @keyframes kim {
+      from {
+        top: 0;
+      }
+      to {
+        top: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="ball">
+    </div>
+  </div>
+</body>
+
+</html>
