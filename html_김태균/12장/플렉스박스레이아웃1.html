@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>플렉스박스레이아웃1</title>
+<style>
+  .container{
+    display: flex; /*컨테이너 안의 플렉스 항목을 블록 레벨 요소로 배치 */
+  }
+  #opt1{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    flex-direction: row; /*왼쪽에서 오른쪽*/
+    margin-bottom: 10px;
+    flex-wrap: wrap; /*줄바꿈 배치*/
+  }
+  #opt2{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    flex-flow: row nowrap; /* 왼쪽에서 오른쪽 한 줄 */
+    margin-bottom: 10px;
+  }
+  #opt3{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    flex-direction: column; /* 세로*/
+  }
+  #opt4{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    flex-direction: column-reverse; /*세로 역순으로 나열*/ 
+  }
+  #box{
+    width: 200px;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+  }
+</style>
+</head>
+<body>
+  <div class="container" id="opt1">
+      <div id="box">1</div>
+      <div id="box">2</div>
+      <div id="box">3</div>
+      <div id="box">4</div>
+      <div id="box">5</div>
+    </div>
+  <div class="container" id="opt2">
+      <div id="box">1</div>
+      <div id="box">2</div>
+      <div id="box">3</div>
+      <div id="box">4</div>
+      <div id="box">5</div>
+    </div>
+  <div class="container" id="opt3">
+      <div id="box">1</div>
+      <div id="box">2</div>
+      <div id="box">3</div>
+    </div>
+  <div class="container" id="opt4">
+      <div id="box">1</div>
+      <div id="box">2</div>
+      <div id="box">3</div>
+    </div>
+</body>
+</html>
