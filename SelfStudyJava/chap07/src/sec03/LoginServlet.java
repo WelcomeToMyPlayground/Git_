@@ -3,6 +3,6 @@ package sec03;
 public class LoginServlet extends HttpServlet {
 	@Override
 	public void service() {
-		System.out.println("ÆÄÀÏ ´Ù¿î·Îµå ÇÕ´Ï´Ù.");
+		System.out.println("íŒŒì¼ ë‹¤ìš´ë¡œë“œ í•©ë‹ˆë‹¤.");
 	}
 }
