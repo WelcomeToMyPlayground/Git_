@@ -3,7 +3,7 @@ package sec03;
 public class FileDownloadServlet extends HttpServlet{
 	@Override
 	public void service() {
-		System.out.println("·Î±×ÀÎ ÇÕ´Ï´Ù.");
+		System.out.println("ë¡œê·¸ì¸ í•©ë‹ˆë‹¤.");
 	}
 
 }
